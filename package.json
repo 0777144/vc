@@ -6,7 +6,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "push": "push.js"
+    "push": "push.js",
+    "pull": "pull.js"
   },
   "keywords": [],
   "author": "",
