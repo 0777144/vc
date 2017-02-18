@@ -18,8 +18,8 @@ const exec = function (command) {
     return !onlyPrint && output;
 };
 
-// const program = require('commander');
-const program = require('commander-completion');
+ const program = require('commander');
+//const program = require('commander-completion');
 const colors = require('colors');
 
 const increaseArg = (v, total) => total + 1;
